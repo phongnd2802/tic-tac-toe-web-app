@@ -21,7 +21,7 @@ $ venv\Scripts\activate
 Step 3: Install the requirements for the project using the command...
 
 ```
-$ pip install -r requerements.txt
+$ pip install -r requirements.txt
 ```
 
 ## Demo
@@ -39,7 +39,7 @@ $ python window_app.py
 $ python app.py
 ```
 
-Access https://localhost:5000 in browser
+Access http://localhost:5000 in browser
 
 ![screenshot](images/web_app.png)
 
