@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tic-Tac-Toe</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+        <section>
+            <h1 class="game--title">Tic-Tac-Toe</h1>
+            <div class="game--container">
+                <div data-cell-index="0,0" class="cell"></div>
+                <div data-cell-index="0,1" class="cell"></div>
+                <div data-cell-index="0,2" class="cell"></div>
+                <div data-cell-index="1,0" class="cell"></div>
+                <div data-cell-index="1,1" class="cell"></div>
+                <div data-cell-index="1,2" class="cell"></div>
+                <div data-cell-index="2,0" class="cell"></div>
+                <div data-cell-index="2,1" class="cell"></div>
+                <div data-cell-index="2,2" class="cell"></div>
+            </div>
+            <h2 class="game--status"></h2>
+            <button class="game--restart"><a href="/">Restart Game</a></button>
+        </section>
+        <script src="{{ url_for('static', filename='script.js' )}}"></script>
+    </body>
+</html>
